@@ -22,8 +22,10 @@ Virtualization Platform - Proxmox
 PiHole - Network wide ad blocker running in a LXC container 
 512mb usable memory, 1 CPU core, Debian-12-standard CT Template
 
-Minecraft Server- Video game multiplayer server running in a LXC container 
+Minecraft Server - Video game multiplayer server running in a LXC container 
 4GB ram, 4 CPU cores, 25gb storage, Ubuntu 22.04 Standard CT Template
 
 Docker - Running on Ubuntu Server 22.04.5 LTS VM
 4GB ram, 4 CPU cores, 40GB storage
+
+Tailscale - Docker VM also running Tailscale, providing secure remote access to the Proxmox host via SSH port forwarding over a private WireGuard-based VPN.
